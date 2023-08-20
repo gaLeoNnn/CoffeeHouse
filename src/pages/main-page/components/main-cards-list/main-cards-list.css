@@ -1,0 +1,13 @@
+.main-cards {
+  background-image: url("../../../../img/bg-main-page2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.main-cards__items {
+  display: flex;
+  justify-content: space-around;
+}
+.title_cards {
+  padding-top: 80px;
+}

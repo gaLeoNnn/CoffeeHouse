@@ -1,0 +1,33 @@
+.cards-item {
+  margin-top: 40px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+  width: 220px;
+  padding: 22px 20px;
+}
+.cards-item img {
+  display: block;
+  margin: 0 auto;
+}
+.cards-item__name {
+  margin-top: 14px;
+}
+.cards-item__name a {
+  color: #000;
+  text-align: center;
+  font-family: Merienda;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards-item__price {
+  margin-top: 10px;
+  color: #000;
+  text-align: center;
+  font-family: Merienda;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
+}

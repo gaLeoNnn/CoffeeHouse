@@ -1,0 +1,25 @@
+.our-coffee__img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.our-coffee__title {
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Merienda;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.our-coffee__text {
+  margin-top: 20px;
+  max-width: 350px;
+  color: #000;
+  text-align: center;
+  font-family: Merienda;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
