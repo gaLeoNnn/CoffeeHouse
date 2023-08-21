@@ -7,7 +7,7 @@ class MainCardsList extends Component {
     const { data } = this.props;
 
     const mainCards = data.map((item) => {
-      return <MainCardsListItem />;
+      return <MainCardsListItem key={item.id} {...item} />;
     });
 
     return (

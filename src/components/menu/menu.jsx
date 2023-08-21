@@ -15,7 +15,7 @@ class Menu extends Component {
               </Link>
             </li>
             <li className="menu__item">
-              <Link href="/our-coffee" className="menu__link">
+              <Link to="/our-coffee" className="menu__link">
                 Our coffee
               </Link>
             </li>

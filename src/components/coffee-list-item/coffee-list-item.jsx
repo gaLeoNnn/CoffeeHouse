@@ -1,13 +1,9 @@
 import { Component } from "react";
-import "./main-cards-list-item.css";
+import "./coffee-list-item.css";
 
-class MainCardsListItem extends Component {
-  constructor(props) {
-    super(props);
-  }
-
+class CoffeeListItem extends Component {
   render() {
-    const { name, price, img } = this.props;
+    const { name, sort, price, img } = this.props;
 
     return (
       <li className="cards-item">
@@ -17,11 +13,13 @@ class MainCardsListItem extends Component {
           <div className="cards-item__name">
             <a href="#">{name}</a>
           </div>
+          <div className="cards-item__sort">
+            <a href="#">{sort}</a>
+          </div>
           <div className="cards-item__price">{price + "$"}</div>
         </div>
       </li>
     );
   }
 }
-
-export default MainCardsListItem;
+export default CoffeeListItem;

@@ -1,9 +1,12 @@
-.our-coffee__img {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
+.our-coffee {
+  background-image: url("../../img/our-coffee.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
+
 .our-coffee__title {
+  text-align: center;
   margin-bottom: 20px;
   color: #000;
   font-family: Merienda;
@@ -22,4 +25,34 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.about-coffee__inner {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.about-coffee__box {
+  max-width: 346px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-coffee__text {
+  margin-top: 30px;
+  color: #000;
+  text-align: center;
+  font-family: Merienda;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about-coffee__text span {
+  display: block;
+  margin-bottom: 20px;
+}
+.title_about {
+  margin-top: 40px;
 }

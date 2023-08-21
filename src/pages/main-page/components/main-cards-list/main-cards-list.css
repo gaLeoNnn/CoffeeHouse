@@ -11,3 +11,16 @@
 .title_cards {
   padding-top: 80px;
 }
+.title_our {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  color: #fff;
+  font-family: Merienda;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

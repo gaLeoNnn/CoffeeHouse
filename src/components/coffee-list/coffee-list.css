@@ -1,0 +1,8 @@
+.coffee-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 70px;
+  border: 1px solid #000;
+  height: 700px;
+}
